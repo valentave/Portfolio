@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "push": "git subtree push --prefix public origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentave/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "valentave"
+  ],
+  "author": "Valentín Taverna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentave/Portfolio/issues"
+  },
+  "homepage": "https://github.com/valentave/Portfolio#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "jest": "^29.6.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
