@@ -20,6 +20,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/Style/m-about.css":
+/*!*******************************!*\
+  !*** ./src/Style/m-about.css ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://portfolio/./src/Style/m-about.css?");
+
+/***/ }),
+
+/***/ "./src/Style/m-projects.css":
+/*!**********************************!*\
+  !*** ./src/Style/m-projects.css ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://portfolio/./src/Style/m-projects.css?");
+
+/***/ }),
+
 /***/ "./src/Style/s-about.css":
 /*!*******************************!*\
   !*** ./src/Style/s-about.css ***!
@@ -124,7 +146,7 @@ eval("$hamburgerBtn = document.querySelector('.hamburger-btn');\r\n$navbar = doc
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Modules_navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modules/navbar */ \"./src/Modules/navbar.js\");\n/* harmony import */ var _Modules_navbar__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Modules_navbar__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modules/changeTheme */ \"./src/Modules/changeTheme.js\");\n/* harmony import */ var _Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Style_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Style/style.css */ \"./src/Style/style.css\");\n/* harmony import */ var _Style_s_header_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Style/s-header.css */ \"./src/Style/s-header.css\");\n/* harmony import */ var _Style_s_home_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Style/s-home.css */ \"./src/Style/s-home.css\");\n/* harmony import */ var _Style_s_about_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Style/s-about.css */ \"./src/Style/s-about.css\");\n/* harmony import */ var _Style_s_skills_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Style/s-skills.css */ \"./src/Style/s-skills.css\");\n/* harmony import */ var _Style_s_projects_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Style/s-projects.css */ \"./src/Style/s-projects.css\");\n/* harmony import */ var _Style_s_contact_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Style/s-contact.css */ \"./src/Style/s-contact.css\");\n/* harmony import */ var _Style_dark_mode_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Style/dark-mode.css */ \"./src/Style/dark-mode.css\");\n// Import modules\r\n\r\n\r\n\r\n// Imports styles\r\n\r\n\r\n// Styles: small devices\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Styles: dark mode\r\n\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Modules_navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modules/navbar */ \"./src/Modules/navbar.js\");\n/* harmony import */ var _Modules_navbar__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Modules_navbar__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modules/changeTheme */ \"./src/Modules/changeTheme.js\");\n/* harmony import */ var _Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Modules_changeTheme__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Style_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Style/style.css */ \"./src/Style/style.css\");\n/* harmony import */ var _Style_s_header_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Style/s-header.css */ \"./src/Style/s-header.css\");\n/* harmony import */ var _Style_s_home_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Style/s-home.css */ \"./src/Style/s-home.css\");\n/* harmony import */ var _Style_s_about_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Style/s-about.css */ \"./src/Style/s-about.css\");\n/* harmony import */ var _Style_s_skills_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Style/s-skills.css */ \"./src/Style/s-skills.css\");\n/* harmony import */ var _Style_s_projects_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Style/s-projects.css */ \"./src/Style/s-projects.css\");\n/* harmony import */ var _Style_s_contact_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Style/s-contact.css */ \"./src/Style/s-contact.css\");\n/* harmony import */ var _Style_m_about_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Style/m-about.css */ \"./src/Style/m-about.css\");\n/* harmony import */ var _Style_m_projects_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Style/m-projects.css */ \"./src/Style/m-projects.css\");\n/* harmony import */ var _Style_dark_mode_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Style/dark-mode.css */ \"./src/Style/dark-mode.css\");\n// Import modules\r\n\r\n\r\n\r\n// Imports styles\r\n\r\n\r\n// Styles: small screens\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Styles: medium screens\r\n\r\n\r\n\r\n// Styles: dark mode\r\n\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
 
 /***/ })
 
