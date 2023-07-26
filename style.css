@@ -351,11 +351,11 @@ button {
 
 .networks-svg {
     width: 32px;
-    transition: fill 0.005s, transform 0.3s;
+    transition: fill 0.1s, transform 0.3s;
 }
 
 .networks-svg path {
-    transition: fill 0.005s, transform 0.3s;
+    transition: fill 0.1s, transform 0.3s;
 }
 
 .networks-svg:hover, .networks-svg:focus {
@@ -399,6 +399,291 @@ button {
 
     .projects-image {
         width: 90%;
+    }
+}
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-header.css ***!
+  \**************************************************************************/
+@media (min-width: 769px) {
+    .hamburger-btn {
+        display: none;
+    }
+
+    .nav {
+        transform: translatex(0);
+        position: relative;
+        height: auto;
+        width: auto;
+        background: none;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theme-selector {
+        display: flex;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    li .nav-item::after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background: var(--light-blue);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    li .nav-item:hover::after {
+        transform: scaleX(1);
+    }
+}
+/*!************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-home.css ***!
+  \************************************************************************/
+@media (min-width: 769px) {
+    .main__home {
+        gap: 30px;
+    }
+    
+    .home-title {
+        font-size: 2.5rem;
+    }
+
+    .home-presentation {
+        max-width: 768px;
+    }
+
+    .home-link {
+        padding: 0.9ch 1.7ch;
+        font-size: 1.2rem;
+    }
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-about.css ***!
+  \*************************************************************************/
+@media (min-width: 769px) {
+    .profile-container {
+        display: grid;
+        grid-template-rows: 1fr 10fr;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 75px;
+    }
+
+    .profile-title {
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
+    .aboutme-text strong {
+        color: var(--blue);
+    }
+}
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-skills.css ***!
+  \**************************************************************************/
+@media (min-width: 769px) {
+    .languages-section,
+    .tools-section {
+        padding: 20px;
+    }
+
+    .languages-container,
+    .tools-container {
+        column-gap: 30px;
+        max-width: 769px;
+    }
+}
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-projects.css ***!
+  \****************************************************************************/
+@media (min-width: 769px) {
+    .projects__item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .projects-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .projects-image {
+        width: 100%;
+    }
+
+    .infor-container {
+        position: absolute;
+        background: var(--blue) !important;
+        color: #fff;
+        bottom: 0;
+        overflow: hidden;
+        transform: translateY(100%);
+        transition: transform 0.5s;
+        height: 50%;
+    }
+
+    .projects__info,
+    .projects-link-text {
+        background: var(--blue) !important;
+    }
+
+    .center:hover > .infor-container {
+        transform: translateY(0);
+    }
+
+    .projects__repo,
+    .projects__live-preview {
+        color: #fff;
+        fill: #fff;
+    }
+
+    .back-btn, .next-btn {
+        display: flex;
+    }
+
+    .reel-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 50vh;
+    }
+
+    .projects-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .projects__item {
+        transform: scale(0.08);
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: z-index 0.3s, transform 0.3s cubic-bezier(0.4, 0, 1, 1), opacity 0.2s cubic-bezier(0.4, 0, 1, 1);
+    }
+
+    .center {
+        display: flex;
+        z-index: 100;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .next {
+        display: flex;
+        opacity: 1;
+        z-index: 50;
+        transform: translateX(min(45%, 15vw)) scale(0.7);
+    }
+
+    .back {
+        display: flex;
+        opacity: 1;
+        z-index: 50;
+        transform: translateX(max(-45%, -15vw)) scale(0.7);
+    }
+
+    .next-next {
+        display: flex;
+        opacity: 1;
+        z-index: 25;
+        transform: translateX(min(75%, 27vw)) scale(0.45);
+    }
+
+    .back-back {
+        display: flex;
+        opacity: 1;
+        z-index: 25;
+        transform: translateX(max(-75%, -27vw)) scale(0.45);
+    }
+
+    .back-btn {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        z-index: 200;
+        border-radius: 100%;
+        border: none;
+        left: -25px;
+        background: var(--light-blue);
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .next-btn {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        z-index: 200;
+        border-radius: 100%;
+        border: none;
+        right: -25px;
+        background: var(--light-blue);
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    
+    .next-btn:hover, .back-btn:hover,
+    .next-btn:focus, .back-btn:focus {
+        box-shadow: 0 0 10px 5px var(--light-blue);
+    }
+}
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Style/l-contact.css ***!
+  \***************************************************************************/
+@media (min-width: 769px) {
+    .networks-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .link-linkedin::after {
+        content: "Linkedin";
+    }
+
+    .link-github::after {
+        content: "GitHub";
+    }
+
+    .link-email::after {
+        content: "Email";
+    }
+
+    .link-instagram::after {
+        content: "Instagram";
+    }
+
+    .link-telegram::after {
+        content: "Telegram";
     }
 }
 /*!***************************************************************************!*\
